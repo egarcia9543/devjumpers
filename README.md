@@ -25,3 +25,10 @@
 
 13. Para ver la lista de cambios, se utilizan los comandos git config --global alias.list "log --oneline --decorate --graph --all" y
 git list
+
+## Perfiles de compañeros
+| Nombre | Enlace | 
+|--------|--------|
+| Jhonatan Toro | https://github.com/jtorova5 |
+| Isabella Echeverri | https://github.com/i-echeverri22 |
+| Santiago Correa | https://github.com/SantiagoomC |
