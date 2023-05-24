@@ -14,3 +14,14 @@
 7. Se crea la rama v0.2 con el comando 'git branch v0.2' y nos movemos a ella con 'git checkout v0.2' allí utilizamos el 'touch 2.txt' para crear el archivo y luego hacemos el proceso de add, commit y push para subir los cambios
 
 8. Luego de todo esto, pasamos a la rama main con 'git checkout main' y hacemos el merge de ambas ramas con el comando 'git merge v0.2'
+
+9. En esta rama ponemos Hola en 1.txt y hacemos el proceso de add y commit, luego vamos a la rama v0.2 con git checkout y ponemos Adios en el archivo 1.txt, de igual forma, hacemos add y commit
+
+10. Luego intentamos hacer merge desde la rama master con 'git merge v0.2' pero encontramos un conflicto, para solucionarlo editamos el archivo 1.txt desde un editor de texto, en este caso VScode, para abrir el archivo se utiliza el comando 'code 1.txt'
+
+11. Se hacen los cambios necesarios en el archivo y finalmente se hace un add y un commit
+
+12. Luego se borra la rama v0.2 con el comando 'git branch -D v0.2'
+
+13. Para ver la lista de cambios, se utilizan los comandos git config --global alias.list "log --oneline --decorate --graph --all" y
+git list
